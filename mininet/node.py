@@ -205,6 +205,7 @@ class Node( object ):
         # for intfName in self.intfNames():
         # if self.name in intfName:
         # quietRun( 'ip link del ' + intfName )
+	self.waiting = False
         self.shell = None
 
     # Subshell I/O, commands and control

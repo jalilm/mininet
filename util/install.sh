@@ -668,11 +668,11 @@ function all {
     echo "Installing all packages except for -eix (doxypy, ivs, nox-classic)..."
     kernel
     mn_deps
-    ryu
+    # ryu
     # Skip mn_dev (doxypy/texlive/fonts/etc.) because it's huge
     # mn_dev
     # of
-    install_wireshark
+    # install_wireshark
     # ovs
     # We may add ivs once it's more mature
     # ivs
